@@ -46,20 +46,21 @@ https://www.kaggle.com/datasets/shrutigupta2495/the-real-canadian-superstore-dat
 
 ## Project
 
-    ├── data
-        ├── clean
-        ├── raw
+    ├── /data
+        ├── /clean
+        ├── /raw
             ├── super_store.csv     -> Superstore Dataset
-    ├── models
-    ├── notebooks
+    ├── /html
+        ├── super_store_eda.html    -> EDA using Pandas Profiling
+    ├── /models
+    ├── /notebooks
         ├── data_exploration.ipynb  -> Exploratory Data Analysis
         ├── preprocessing.ipynb     -> Data Preprocessing
-    ├── src
-        ├── classifier
-        ├── load
-        ├── train
-        ├── transform
-    
+    ├── /src
+        ├── /classifier
+        ├── /load
+        ├── /train
+        ├── /transform
     ├── .gitignore
     ├── LICENSE
     ├── README.md
